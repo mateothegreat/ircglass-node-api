@@ -1,0 +1,25 @@
+{
+    "name": "@ngxui/ircglass-node-api",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "node dist/server.js",
+        "watch": "nodemon dist/server.js",
+        "build": "tsc",
+        "build:watch": "tsc -w"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@mateothegreat/irc-command-replies": "^1.0.0",
+        "@types/socket.io": "^2.1.2",
+        "socket.io": "^2.2.0"
+    },
+    "devDependencies": {
+        "@types/node": "^10.12.17",
+        "nodemon": "^1.18.9",
+        "typescript": "^3.2.2"
+    }
+}
