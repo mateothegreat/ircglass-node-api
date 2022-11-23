@@ -15,7 +15,7 @@
     "dependencies": {
         "@mateothegreat/irc-command-replies": "^1.0.0",
         "@types/socket.io": "^2.1.2",
-        "socket.io": "^2.2.0"
+        "socket.io": "^2.5.0"
     },
     "devDependencies": {
         "@types/node": "^10.12.17",
